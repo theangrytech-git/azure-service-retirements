@@ -2,7 +2,7 @@
 <br>
 <b>PROJECT NAME:&emsp;&emsp;&emsp;&emsp;&nbsp;Azure Service Retirements<br>
 CREATED BY:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;THEANGRYTECH-GIT<br>
-REPO:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[([link to repo](https://github.com/theangrytech-git/azure-service-retirements))]<br><br>
+REPO:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[([Azure Service Retirements](https://github.com/theangrytech-git/azure-service-retirements))]<br><br>
 DESCRIPTION:</b>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;This PowerShell script queries Azure Service Health to identify<br>
 Service Retirement and end-of-life notifications affecting an Azure subscription.<br>
 It extracts impact, region, and timeline details and generates a clear HTML report to <br>
@@ -27,6 +27,7 @@ You can also change the 'Look Ahead' days on Lines 28-30 if you want longer/shor
 <b>Serivce_Retirement_Azure_Runbook </b> - Can be added as an Azure Runbook, to run on a schedule within a<br>
 Azure Automation Account.<br>
 You will need to create the Automation Variables from Lines 19-32 and provide your Sendgrid API, Email addresses, and Subcription details<br>
+*******************************************************************************<br>
 <br>
 <b>NOTES:</b><br>
 This will require the following to run:<br><br>
@@ -41,3 +42,12 @@ This will create a single report that will report on any Services/Features that 
 and provides a one-stop report of any Resources that will be impacted by the Retirements from Azure.<br><br>
 It's recommended that this report is run once a month, so you have a monthly report for any Clients/Projects that require it, as well<br>
 as your Operations Teams.<br>
+*******************************************************************************<br>
+<b>Screenshots</b><br>
+*******************************************************************************<br>
+<br>
+Here's some screenshots of the report, with some details omitted for security purposes:<br>
+<br>
+![Azure Advisor Categories](Images/retirements.jpg)
+<br>
+*Figure 1: List of Service Retirements, running in a test subscription*<br>
